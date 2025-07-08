@@ -1,0 +1,110 @@
+*{
+font-family: poppins;
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+.container-fluid{
+color: 1px solid red;
+background: url(img/background.jpg),rgba(0, 0, 0, 0.562) ; 
+background-blend-mode: overlay;
+background-size: cover;
+height: 100vh;
+width: 100%;
+position: relative;
+}
+
+
+
+.container{
+color: #513252;
+width: 500px;
+height: 600px;
+border-radius: 10px;
+background-color:  #ffffff;
+position: absolute;
+right: 50%;
+top:20%;
+left: 35%;
+text-align: center;
+
+ }
+
+ .formtitle{
+
+margin-top: 20px;
+
+ }
+
+.image{
+ width: 400px;
+right: 35%;
+position: absolute;
+top: 13%;
+left: 10%;
+}
+
+
+
+
+.form-details{
+padding:15px;
+border-radius:10px;
+font-size: 19px;
+width: 400px;
+margin-top: 20px;
+border: 1px solid;
+
+}
+.col{
+position: absolute;
+right:50%;
+width: 200px;
+margin: auto;
+top: 18%;
+
+
+
+}
+
+.link{
+margin: 8px;
+font-size: 20px;
+left: 50px;
+text-decoration: none;
+color: #ab5692;
+margin-left: -15px;
+margin-bottom: 60px;
+margin-top: 40px;
+}
+
+.btn{
+     margin-top: 10%;
+  width: 400px;
+    border-radius: 10px;
+ padding:15px 15px;
+    font-size: 20px;
+background-image:  linear-gradient(to right,  #ab5692, #513252 );
+
+}
+
+.tag{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.774);
+    text-decoration: none;
+   
+    margin-top: 20px;
+   margin-left:180px;
+  
+
+}
+.signup{
+padding: 30px 20px;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+
+
